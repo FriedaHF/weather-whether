@@ -1,0 +1,45 @@
+
+
+* {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+}
+
+
+header {
+    background-color: lightblue;
+    width: 100%;
+    font-size: 32px;
+    text-align: center;
+}
+
+.wrapper {
+    display: flex;
+    height: 1000px;
+    width: 100%;
+}
+
+aside {
+    width: 40%;
+    padding: 4px;
+}
+
+section {
+    width: 60%;
+    padding: 3px;
+
+}
+
+.display {
+    height: 200px;
+}
+
+.forecast {
+    height: 200px;
+}
+
+.city {
+    display: flex;
+    flex-flow: column;
+    padding: 5px;
+}
